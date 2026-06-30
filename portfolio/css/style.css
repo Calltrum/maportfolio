@@ -41,7 +41,7 @@
     backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);
   }
-  .logo{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px;color:var(--text);}
+  .logo{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:17px;color:var(--text);letter-spacing:.01em;}
   .logo span{color:var(--accent);}
   .navlinks{display:flex;gap:32px;font-size:13px;font-family:'JetBrains Mono',monospace;color:var(--muted);}
   .navlinks a:hover{color:var(--accent);}
@@ -76,21 +76,41 @@
     animation:pulse 2s ease-in-out infinite;
   }
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .name-tag{
+    font-weight:800;
+    font-size:15px;
+    letter-spacing:.12em;
+    color:#F1F4F7;
+    margin-bottom:16px;
+  }
   h1{
     font-family:'JetBrains Mono',monospace;
     font-weight:800;
-    font-size:clamp(36px,6.5vw,84px);
-    line-height:1.02;
+    font-size:clamp(36px,6.5vw,76px);
+    line-height:1.05;
     letter-spacing:-0.02em;
     color:#F1F4F7;
-    max-width:14ch;
+    max-width:16ch;
   }
   h1 .accent{color:var(--accent);}
+  .role-line{
+    margin-top:10px;
+    font-family:'JetBrains Mono',monospace;
+    font-size:clamp(15px,1.8vw,20px);
+    font-weight:500;
+    color:var(--muted);
+  }
   .hero-sub{
     margin-top:28px;
     max-width:560px;
     font-size:17px;
     color:var(--muted);
+  }
+  .role-line{
+    margin-top:18px;
+    font-size:15px;
+    color:var(--accent);
+    letter-spacing:.04em;
   }
   .hero-sub strong{color:var(--text);font-weight:600;}
   .hero-ctas{display:flex;gap:16px;margin-top:40px;flex-wrap:wrap;}
@@ -115,7 +135,7 @@
 
   /* PROFILE IMAGE */
   .profile-frame{
-    width:220px;flex-shrink:0;
+    width:300px;flex-shrink:0;
     border:1px solid var(--line);
     border-radius:10px;
     overflow:hidden;
