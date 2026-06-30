@@ -1,6 +1,6 @@
-# Callum Omeje — Portfolio Site
+# Chidera Omeje — Portfolio Site
 
-A dark, terminal-themed portfolio built with plain HTML/CSS/JS — showcasing automation engineering work (n8n, Make.com, Supabase builds).
+A dark, terminal-themed portfolio built with plain HTML/CSS/JS — showcasing automation engineering work (n8n).
 
 ## File structure
 
